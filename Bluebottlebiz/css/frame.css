@@ -1,0 +1,409 @@
+/*http://fontawesome.io/
+http://glyphicons.com/
+*/
+/*formateo general*/
+*{
+ font-family:helvetica;
+ margin:0px;
+ padding:0px;
+ text-decoration:none;	
+ box-sizing:border-box;
+}
+a:link, a:visited, a:active, a:hover, a:focus{
+	text-decoration:none;	
+}
+
+ /*Cada bloque de información se pondrá en un contenedor y dentro del contenedor se pondran las filas*/
+.contenedor
+{position:relative;
+margin:auto;
+width:100%;
+height:auto;
+clear:both;
+}
+/*Cada fila podra tener varias separaciones y podra ocupar lo que nosotros le digamos
+con las clases que crearemos luego*/
+.fila{position:relative;
+margin:auto;
+width:100%;
+display:flex;
+flex-wrap:wrap;
+/*min-height:50px;*/
+
+clear:both;
+}
+
+/*FIN formateo general*/
+
+/*Escritorio*/
+/*A partir de ahora crearemos las clases para indicar lo que ocupa cada fila dependiendo
+del tamaño del dispositivo donde se abra.
+En el primer caso sera para ordenadores de escritorio cuando el minimo ancho sea 1200px*/
+/**/
+@media only screen and (min-width:1200px) {
+body{}	
+	
+	/* SI DIVIDO MI PAG WEB EN DOCE COLUMNAS, Y QUIERO QUE UN DIV TODAS */
+	.escritorio-12{
+			position:relative;
+			float:left;
+			width:100%;
+			height:auto;
+						
+	}
+	.escritorio-11{
+			position:relative;
+			float:left;
+			width:91.66666667%;
+			height:auto;
+		
+	}
+	.escritorio-10{
+			position:relative;
+			float:left;
+			width:83.33333333%;
+			height:auto;
+			
+	}
+	.escritorio-9{
+			position:relative;
+			float:left;
+			width:75%;
+			height:auto;
+			
+	/* SI DIVIDO MI PAG WEB EN DOCE COLUMNAS, Y QUIERO QUE UN DIV OCUPE  8 DE 12 */		
+	}
+	.escritorio-8{
+			position:relative;
+			float:left;
+			width:66.66666667%;
+			height:auto;
+			
+	}
+	.escritorio-7{
+			position:relative;
+			float:left;
+			width:58.33333333%;
+			height:auto;
+			
+	}
+	.escritorio-6{
+			position:relative;
+			float:left;
+			width:50%;
+			height:auto;		
+	}
+	.escritorio-5{
+			position:relative;
+			float:left;
+			width:41.66666667%;
+			height:auto;
+			
+	}
+	.escritorio-4{
+			position:relative;
+			float:left;
+			width:33.33333333%;
+			height:auto;
+		
+	}
+	.escritorio-3{
+			position:relative;
+			float:left;
+			width:25%;
+			height:auto;
+box-sizing:border-box;			
+	}
+
+	.escritorio-2{
+			position:relative;
+			float:left;
+			width:16.66666667%;
+			height:auto;
+		
+	}
+	.escritorio-1{
+			position:relative;
+			float:left;
+			width:8.33333333%;
+			height:auto;
+			
+	}
+	.escritorio-0{
+			display:none;	
+	}
+	
+
+}
+
+
+/* FIN Escritorio*/
+
+
+/*LAPT*/
+@media only screen and (max-width:1199px) and (min-width:992px){
+	body{background:;}
+
+
+	.portatil-12{
+			position:relative;
+			float:left;
+			width:100%;
+			height:auto;	
+	}
+	.portatil-11{
+			position:relative;
+			float:left;
+			width:91.66666667%;
+			height:auto;	
+	}
+	.portatil-10{
+			position:relative;
+			float:left;
+			width:83.33333333%;
+			height:auto;	
+	}
+	.portatil-9{
+			position:relative;
+			float:left;
+			width:75%;
+			height:auto;	
+	}
+	.portatil-8{
+			position:relative;
+			float:left;
+			width:66.66666667%;
+			height:auto;	
+	}
+	.portatil-7{
+			position:relative;
+			float:left;
+			width:58.33333333%;
+			height:auto;	
+	}
+	.portatil-6{
+			position:relative;
+			float:left;
+			width:50%;
+			height:auto;	
+	}
+	.portatil-5{
+			position:relative;
+			float:left;
+			width:41.66666667%;
+			height:auto;	
+	}
+	.portatil-4{
+			position:relative;
+			float:left;
+			width:33.33333333%;
+			height:auto;	
+	}
+	.portatil-3{
+			position:relative;
+			float:left;
+			width:25%;
+			height:auto;	
+	}
+
+	.portatil-2{
+			position:relative;
+			float:left;
+			width:16.66666667%;
+			height:auto;	
+	}
+	.portatil-1{
+			position:relative;
+			float:left;
+			width:8.33333333%;
+			height:auto;	
+	}
+	.portatil-0{
+			display:none;	
+	}
+	
+	
+}
+
+
+/* FIN Escritorio*/
+@media only screen and (max-width:991px) and (min-width:768px){
+	body{background:;}
+
+
+	.tablet-12{
+			position:relative;
+			float:left;
+			width:100%;
+			height:auto;	
+	}
+	.tablet-11{
+			position:relative;
+			float:left;
+			width:91.66666667%;
+			height:auto;	
+	}
+	.tablet-10{
+			position:relative;
+			float:left;
+			width:83.33333333%;
+			height:auto;	
+	}
+	.tablet-9{
+			position:relative;
+			float:left;
+			width:75%;
+			height:auto;	
+	}
+	.tablet-8{
+			position:relative;
+			float:left;
+			width:66.66666667%;
+			height:auto;	
+	}
+	.tablet-7{
+			position:relative;
+			float:left;
+			width:58.33333333%;
+			height:auto;	
+	}
+	.tablet-6{
+			position:relative;
+			float:left;
+			width:50%;
+			height:auto;	
+	}
+	.tablet-5{
+			position:relative;
+			float:left;
+			width:41.66666667%;
+			height:auto;	
+	}
+	.tablet-4{
+			position:relative;
+			float:left;
+			width:33.33333333%;
+			height:auto;	
+	}
+	.tablet-3{
+			position:relative;
+			float:left;
+			width:25%;
+			height:auto;	
+	}
+
+	.tablet-2{
+			position:relative;
+			float:left;
+			width:16.66666667%;
+			height:auto;	
+	}
+	.tablet-1{
+			position:relative;
+			float:left;
+			width:8.33333333%;
+			height:auto;	
+	}
+	.tablet-0{
+			display:none;	
+	}
+	
+	
+}
+
+
+@media only screen and (max-width:767px){ 
+body{background:;}	
+
+	.telefono-12{
+			position:relative;
+			float:left;
+			width:100%;
+			height:auto;	
+	}
+	.telefono-11{
+			position:relative;
+			float:left;
+			width:91.66666667%;
+			height:auto;	
+	}
+	.telefono-10{
+			position:relative;
+			float:left;
+			width:83.33333333%;
+			height:auto;	
+	}
+	.telefono-9{
+			position:relative;
+			float:left;
+			width:75%;
+			height:auto;	
+	}
+	.telefono-8{
+			position:relative;
+			float:left;
+			width:66.66666667%;
+			height:auto;	
+	}
+	.telefono-7{
+			position:relative;
+			float:left;
+			width:58.33333333%;
+			height:auto;	
+	}
+	.telefono-6{
+			position:relative;
+			float:left;
+			width:50%;
+			height:auto;	
+	}
+	.telefono-5{
+			position:relative;
+			float:left;
+			width:41.66666667%;
+			height:auto;	
+	}
+	.telefono-4{
+			position:relative;
+			float:left;
+			width:33.33333333%;
+			height:auto;	
+	}
+	.telefono-3{
+			position:relative;
+			float:left;
+			width:25%;
+			height:auto;	
+	}
+
+	.telefono-2{
+			position:relative;
+			float:left;
+			width:16.66666667%;
+			height:auto;	
+	}
+	.telefono-1{
+			position:relative;
+			float:left;
+			width:8.33333333%;
+			height:auto;	
+	}
+	.telefono-0{
+			display:none;	
+	}
+	
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
